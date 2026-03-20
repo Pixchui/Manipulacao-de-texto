@@ -1,0 +1,5 @@
+Fruta
+Bebida
+Calça
+sair
+sair nao sair

@@ -4,3 +4,7 @@ with open('teste.txt', 'w', encoding='utf-8') as arquivo:
 
 with open('teste.txt', 'a', encoding='utf-8') as arquivo:
     arquivo.write("Terceira linha.\n")
+
+with open('teste.txt', 'r', encoding='utf-8') as arquivo:
+    for linha in arquivo:
+        print(linha.strip())
